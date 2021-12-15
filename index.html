@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To DO APP</title>
+  </head>
+  <body>
+    <h1>To DO APP</h1>
+    
+    <section class="container">
+        <form class="setTask">
+        <label class="Task-heading"><h3>Add A Task</h3><label><br>
+        <div class="set-task-field">
+            <input type="text" name="task" id="task" placeholder="AddTask">
+        </div>
+            <div class="controls">
+                <button type="submit" class="add-task">Add Task</button>
+            </div>
+        </form> 
+    </section>
+    <!-- <hr style="margin-top: 50px;"> -->
+
+    <section>
+        <div>
+            <h3 class="Task-heading" style="margin-top: 30px;">Your Tasks</h3>
+        </div>
+        <div>
+            <ul id = "myList">
+                
+            </ul>
+        </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

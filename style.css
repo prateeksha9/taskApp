@@ -37,6 +37,10 @@ body {
   font-weight: 500;
 }
 
+#task {
+  height: 20px;
+}
+
 .controls button:hover {
   background-color: #204b74;
 }

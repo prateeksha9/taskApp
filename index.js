@@ -13,6 +13,7 @@ function checkbox(value) {
     document.getElementById("checkbox").disabled = true;
   }
 }
+
 // edit a task from the array
 edit = (value) => {
   const index = taskList.indexOf(task);
